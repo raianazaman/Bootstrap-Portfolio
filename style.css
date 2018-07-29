@@ -1,0 +1,233 @@
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+a{ color:gray;
+    position: relative;
+    margin: 20px;
+    font-size: 14px;
+
+}
+.nav-link
+{
+position: relative;
+left: 700px;
+padding: 2rem 1rem;
+
+}
+
+header
+{
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  background:white;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0px;
+  width:100%;
+  height: 100px;
+  display:block; 
+  position: relative;
+  
+}
+.nav-bar
+{
+  height: 100px;
+  
+}
+h1 {
+
+    font-size: 22px;
+    padding: 30px 25px;
+    height:100px;
+    float: left;
+    display: block;
+    color: #eee;
+    text-align: center;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    position: relative;
+    left : 19%;
+    
+   
+  }
+  
+.menu{
+  position: fixed;
+  right: 0px;
+  padding: 25px 175px;
+  list-style: none;
+  margin: 20px;
+  font-size: 14px;
+}
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin: -5px 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.menu li a {
+  display: block;
+  color: #777777;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-right: 1px solid gray;
+  
+  
+}
+
+
+.container {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  color: #333;
+  top:120px;
+  
+}
+.container h2 {
+  font-size: 24px;
+  margin: 0px;
+  color: #4aaaa5;
+  border-bottom: 2px solid gray;
+}
+#main-bio {
+  
+   width: 960px;
+   height: 350px;
+   background-color: white;
+   padding: 20px;
+   margin-top: 10px;
+   position: fixed;
+   top:120px;
+  border: .5px solid gray;
+ }
+ 
+ p{
+  
+   display: block;
+   color: #777777;
+   text-align: left;
+   padding: 24px 26px;
+   text-decoration: none;
+ }
+ 
+
+body {
+
+  width: 100%;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+
+#bio-image {
+  float: left;
+  width: 10em;
+  height: 10em;
+  margin-right: 20px;
+  margin-top: 20px;
+  
+}
+ h3{
+  height:60px;
+  font-size: 8px;
+  color: #eee;
+  padding: 20px;
+  text-align: center;
+  background-color:gray;
+  text-decoration: none;
+  width: 100%;
+  position:fixed;
+  bottom: 0px;
+  border-top: 10px solid#4aaaa5;
+}
+#Contact{
+  width: 960px;
+  height: 450px;
+  background-color: white;
+  padding: 30px;
+  position: fixed;
+  top:120px;
+ border: .5px solid gray;
+ margin: auto;
+}
+
+#Contact input[type="msg"]{
+  width: 100%;
+  height:120px;
+  font-size: 12px;
+  border: .5px solid gray;
+
+}
+#Contact input[type="submit"]{
+  width: 10%;
+  font-size: 12px;
+  border: .5px solid gray;
+  background-color: #4aaaa5;
+  color: white;
+  font-weight: bold;
+  
+
+}
+p1{
+  font-size: 14px; 
+  
+}
+.pic {
+  
+  width: 10em;
+  height: 7em;
+  margin-right: 20px;
+  margin-top: 20px;
+  float: left;
+}
+  
+  #gallary {
+    
+     width: 450px;
+     height: 560px;
+     background-color: white;
+     padding: 20px 20px;
+     margin-top: 10px;
+     position: fixed;
+     right: 500px;
+     top:120px;
+    border: .5px solid gray;
+   }
+   .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
